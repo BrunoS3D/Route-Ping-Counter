@@ -1,0 +1,17 @@
+{
+	"name": "route-ping-counter",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Bruno Silva <bruno3dcontato@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"scripts": {
+		"start": "node ./src/index.js",
+		"dev": "nodemon ./src/index.js"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.2"
+	}
+}
